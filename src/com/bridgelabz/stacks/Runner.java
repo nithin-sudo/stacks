@@ -1,7 +1,15 @@
 package com.bridgelabz.stacks;
 
 public class Runner {
-    public static void main(String[] args) {
-        System.out.println("welcome to stacks using linked list");
-    }
+        /**
+         * calling respective methods from main
+         * @param args
+         */
+        public static void main(String[] args){
+            MyStack <Integer>myStack = new MyStack<Integer>();
+            myStack.push(70);
+            myStack.push(30);
+            myStack.push(56);
+            myStack.show();
+        }
 }
